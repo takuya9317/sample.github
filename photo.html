@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Photo</title>
+    <!--font awesome-->
+    <script src="jquery-1.10.1.min.js"></script>
+    <script src="jquery.bxslider.js"></script>
+    <link href="style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="jquery.bxslider.css">
+</head>
+<script>
+  $(document).ready(function(){
+    $('.bxslider').bxSlider();
+  });
+</script>
+
+<body id="contact">
+
+  <!-- header始まり -->
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="sample.png" alt="SNAPPERS"></a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header終わり -->
+  
+  <!-- main始まり -->
+  
+    <div id="pageBody" style="text-align: center;">
+      <section class="mainVisual">
+        <ul class="bxslider">
+          <li>
+            <div class="mainVisualText">
+                <h1>サンプルA</h1>
+                <p>サンプルです。</p>
+            </div>
+            <img src="img1.png" width="790" height="450" alt="">
+          </li>
+          <li>
+            <div class="mainVisualText">
+              <h1>サンプルB</h1>
+              <p>サンプルです。</p>
+            </div>
+            <img src="img2.png" width="790" height="450" alt="">
+          </li>
+          <li>
+            <div class="mainVisualText">
+              <h1>サンプル</h1>
+              <p>サンプルです。</p>
+            </div>
+            <img src="img3.png" width="980" height="500" alt="">
+          </li>
+        </ul>
+      </section>
+    </div>
+  
+  <!-- main終わり -->
+  
+  <!-- footer始まり -->
+  <footer>
+    <small>(C)2022 Sample.</small>
+  </footer>
+  <!-- footer終わり -->   
+</body>
+</html>
